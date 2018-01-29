@@ -46,6 +46,8 @@ html {
 .cardGroup {
     display :flex;
     border: 1px solid #CAD0D2;
+    width: 700px;
+    margin: 0 auto;
     border-radius: 4px;
     overflow: hidden;
   }
@@ -53,8 +55,7 @@ html {
     .cardGroup__card {
       flex-grow:1;
       flex-shrink:2;
-      flex-basis:50px; 
-  
+      flex-basis:100px; 
       border: none;
       border-radius: 0;
     }
